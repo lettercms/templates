@@ -1,0 +1,10 @@
+{
+	"name": "Minimal Blog",
+	"description": "A clean, typography-focused blog theme",
+	"version": "1.0.0",
+	"author": "LetterCMS",
+	"tags": ["minimal", "clean", "responsive"],
+	"entrypoints": { "home": "index.hbs" },
+	"partialsDir": "partials",
+	"partials": ["header", "footer"]
+}
