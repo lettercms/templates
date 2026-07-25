@@ -1,0 +1,14 @@
+{
+  "name": "Bloggy",
+  "description": "Personal blog template with sidebar layout and carousel",
+  "version": "0.0.1",
+  "author": "LetterCMS",
+  "tags": ["sidebar", "personal", "carousel", "responsive"],
+  "entrypoints": { "home": "index.hbs" },
+  "partialsDir": "partials",
+  "partials": ["header", "footer"],
+  "assets": {
+    "css": "css/style.css",
+    "cdn": true
+  }
+}
