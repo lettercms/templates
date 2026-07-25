@@ -1,7 +1,7 @@
 {
-	"name": "Bloggy",
+	"name": "Mediumish",
 	"description": "A Medium-style blog template with featured posts and sidebar navigation",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"author": "LetterCMS",
 	"tags": ["medium", "blog", "featured", "responsive"],
 	"entrypoints": { "home": "index.hbs" },
