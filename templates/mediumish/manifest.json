@@ -1,0 +1,10 @@
+{
+	"name": "Bloggy",
+	"description": "A Medium-style blog template with featured posts and sidebar navigation",
+	"version": "1.0.0",
+	"author": "LetterCMS",
+	"tags": ["medium", "blog", "featured", "responsive"],
+	"entrypoints": { "home": "index.hbs" },
+	"partialsDir": "partials",
+	"partials": ["header", "footer"]
+}

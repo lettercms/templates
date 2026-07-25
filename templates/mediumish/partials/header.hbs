@@ -1,0 +1,21 @@
+<nav class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="container">
+	<a class="navbar-brand" href="/">
+	{{#if blog.thumbnail}}
+	<img src="{{blog.thumbnail}}" alt="{{blog.title}}">
+	{{else}}
+	<img src="{{cdnAsset 'assets/img/logo.png'}}" alt="{{blog.title}}">
+	{{/if}}
+	</a>
+	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+			<a class="nav-link" href="/">Home</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
